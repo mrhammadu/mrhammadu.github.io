@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,16 +34,17 @@
             animation: fadeIn 1s ease;
         }
 
-        @keyframes fadeIn {
+        /* @keyframes fadeIn {
             from {
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
+        } */
 
         .error-icon {
             font-size: 120px;
@@ -52,9 +54,12 @@
         }
 
         @keyframes float {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0);
             }
+
             50% {
                 transform: translateY(-20px);
             }
@@ -121,15 +126,16 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <i class="fas fa-exclamation-circle error-icon"></i>
         <h1>404</h1>
-        <p>Oops! The page you're looking for seems to have vanished into the digital void.</p>
+        <p>Oops! The page you're looking for doesn't exit.</p>
         <a href="/" class="home-button">
             <i class="fas fa-home"></i>
             <span>Return to Homepage</span>
         </a>
     </div>
 </body>
+
 </html>
