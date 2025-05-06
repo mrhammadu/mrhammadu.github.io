@@ -81,10 +81,13 @@ body {
 }
 
 h1 {
+    font-family: 'Newsreader', serif;
     font-size: 48px;
     color: #1a1a1a;
     margin-bottom: 16px;
     font-weight: 600;
+    font-optical-sizing: auto;
+    font-variation-settings: "opsz" 32;
 }
 
 p {
