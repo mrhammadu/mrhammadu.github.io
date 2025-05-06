@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found</title>
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="description" content="The page you were looking for could not be found.">
-    <link rel="canonical" href="https://mrhammadu.github.io/404">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Favicon -->
+<!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="./media/favicon/favicon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./media/favicon/favicon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./media/favicon/favicon-72x72.png">
@@ -41,20 +24,3 @@
 
     <meta name="msapplication-config" content="./media/favicon/browserconfig.xml">
     <link rel="manifest" href="./media/favicon/site.webmanifest" />
-
-</head>
-
-<body>
-    <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-
-        <h1>404</h1>
-        <p style="text-align: center;">Oops! The page you're looking for doesn't exist.</p>
-        <a href="index.html" class="home-button">
-            <i class="fas fa-home"></i>
-            <span>Return to Homepage</span>
-        </a>
-
-    </div>
-</body>
-
-</html>
